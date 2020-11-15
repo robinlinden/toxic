@@ -33,6 +33,10 @@
 #include "toxic.h"
 #include "windows.h"
 
+#ifndef PACKAGE_DATADIR
+#define PACKAGE_DATADIR "."
+#endif
+
 extern struct arg_opts arg_opts;
 extern struct Winthread Winthread;
 
